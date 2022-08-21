@@ -1,0 +1,321 @@
+﻿#fullpage {
+    height: auto;
+}
+
+
+  
+#section_update { 
+    display: block;
+    z-index: 1;
+ }
+#section_update .intro {
+    background: url(../images/news/bg_news1.jpg) no-repeat;  
+	background-size: cover; 
+	background-position: center; 
+	background-attachment: fixed;
+    height: 100%;    
+	min-height: 980px;
+    background-size: 1920px 100%;    
+}
+
+#section_update .intro .element { 
+	width: 1100px;
+	min-height: 980px;
+	background: #fff;
+	box-sizing: border-box;
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.updateTab { width: 650px; position: relative; left: 50%; content: ''; transform: translateX(-50%); display: block; height: 40px; margin-top: 25px; }
+.updateTab li { display: block; float: left; width: 160px; height: 40px; line-height: 40px; border: 1px solid #dddddd; text-align: center; color: #484848; background: #f5f5f5; }
+.updateTab li:hover{ color: #fff; background: #a68c69; }  
+.updateTab li.active{ color: #fff; background: #a68c69; }  
+.updateTab li a { display: block; width: 100%; height: 100%; color: inherit; transition: none; }
+
+#section_update .intro .element .tit_update { width: 300px; height: 90px; font-size: 0; text-indent: -9999px; background: url(../images/news/img_titUpdate.png) no-repeat; position: relative; left: 50%; transform: translateX(-50%);  }
+#section_update .intro .element .gameGuideArea { width: 960px; height: 650px; display: block; margin: 40px auto 0px; overflow: hidden; }
+
+#section_update .intro .element .tableArea { width: 960px; position: relative; margin: 20px auto 0; overflow: hidden; max-height: 540px; } 
+
+#section_update .intro .element table.gameGuideBoardArea { width: 100%; } 
+
+#section_update .intro .element table.gameGuideBoardArea th { color: #333333; height: 40px; line-height: 40px; font-size: 14px; text-align: center; font-weight: bold; box-sizing: border-box; border :0; border-top: 2px solid #dddddd; background: #f5f5f5;   }
+#section_update .intro .element table.gameGuideBoardArea td { position: relative; color: #999999; height: 40px; line-height: 40px; font-size: 14px; text-align: center;  box-sizing: border-box; border :0; border-bottom: 1px solid #dddddd; background: #fff; border-right: 1px solid #dddddd;   }
+#section_update .intro .element table.gameGuideBoardArea td:first-child { text-align: left; padding-left: 15px; box-sizing: border-box; width: 68%; max-width: 68%; }
+#section_update .intro .element table.gameGuideBoardArea td:nth-child(2) { width: 18.5%; }
+#section_update .intro .element table.gameGuideBoardArea td:last-child { border-right: 0; }
+
+#section_update .intro .element table.gameGuideBoardArea td a { display: inline-block; color: #999999; max-width: 600px ; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#section_update .intro .element table.gameGuideBoardArea td a:hover { color: #f87f; }
+
+#section_update .intro .element i.gameManager { background: url(../images/gameIntro/name_gameManager.png) no-repeat; display: inline-block;  z-index: 10; margin: 0 auto; width: 146px; height: 13px; }
+#section_update .intro .element i.clock { background: url(../images/gameIntro/icon_clock.png) no-repeat; display: inline-block; position: relative; z-index: 10;width: 11px ; height: 11px ; transform: translateY(0px); }
+
+
+#section_update .intro .element i.board_picture { background: url(../images/gameIntro/icon_boardPicture.png) no-repeat; display: inline-block; position: relative; margin-left : 2px; margin-right: 2px; z-index: 10; width: 18px; transform: translateY(11%); height: 16px; }
+#section_update .intro .element i.board_youtube { background: url(../images/gameIntro/icon_boardYoutube.png) no-repeat; display: inline-block; position: relative; margin-left : 2px; margin-right: 2px; z-index: 10; width: 18px; transform: translateY(11%); height: 16px; }
+#section_update .intro .element i.board_new { background: url(../images/gameIntro/icon_boardNew.png) no-repeat; display: inline-block; position: relative; margin-left : 2px; margin-right: 2px; z-index: 10; width: 18px; transform: translateY(11%); height: 16px; }
+
+
+
+#section_update .intro .element .gameGuideArea ul { width: 100%; height: 100%; display: block;  overflow-x: hidden; }
+#section_update .intro .element .gameGuideArea li { width: 100%; height: auto; line-height: 49px; display: block; border-bottom : 1px solid #dddddd; background: #f9f9f9; box-sizing: border-box; padding-left: 19px; cursor: pointer; }
+#section_update .intro .element .gameGuideArea li:first-child { border-top : 2px solid #dddddd; }  
+#section_update .intro .element .gameGuideArea li i.arrow { vertical-align: middle; transform: rotate(-95deg); transition: 0.7s all; background: url(../images/gameIntro/icon_arrow.png) no-repeat; width: 20px; height: 20px; position: relative; display: inline-block; background-position: 0px 0px; }
+#section_update .intro .element .gameGuideArea li i.arrow.on { transform: rotate(-1deg); }
+#section_update .intro .element .gameGuideArea li h3 { font-size: 14px; color: #484848; display: inline-block; margin-left: 2px; }
+#section_update .intro .element .gameGuideArea li p.contents { display: none; color: #888888; line-height: 20px; font-size: 14px; width: 96%; padding: 15px ; background: #fff; position: relative; left: -19px ; padding-left: 45px ; }
+#section_update .intro .element .gameGuideArea li p img.faqImg { width: 80%; display: block; margin-left: 10px; margin-top: 10px; }
+
+
+#section_update .intro .element .detailArea { width: 960px; position: relative; margin: 20px auto 0; overflow: hidden;  } 
+#section_update .intro .element .detailArea h2 { font-size: 18px; color: #333333; text-align: left; background: #f9f9f9; border-top: 2px solid #dddddd; padding : 5px 13px; } 
+#section_update .intro .element .detailArea .title_bottom { display: flex; background: #f9f9f9; left: auto; top: auto;  flex-wrap: nowrap; justify-content: space-between; padding : 5px 13px } 
+#section_update .intro .element .detailArea .title_bottom p { color: #333333;  }
+
+#section_update .intro .element .detailArea .contents { border-bottom: 1px solid #dddddd; width: 100%; max-height: 650px ; min-height: 650px ; overflow: hidden; padding-bottom: 20px; box-sizing: border-box; padding-top: 15px; padding-left: 10px; }
+#section_update .intro .element .detailArea .contents div.customscrollFlag { font-size: 14px; color: #666666; text-align: left; height: 620px ; overflow: scroll; overflow-x: hidden; }
+#section_update .intro .element .detailArea .contents div p { color: #666666; }
+#section_update .intro .element .detailArea .contents div div { color: #666666; }
+#section_update .intro .element .detailArea .contents div span { color: #666666; }
+#section_update .intro .element .detailArea .contents div i { color: #666666; }
+#section_update .intro .element .detailArea .contents div strike { color: #666666; }
+#section_update .intro .element .detailArea .contents div a { color: #666666; }
+#section_update .intro .element .detailArea .contents div li { color: #666666; }
+#section_update .intro .element .detailArea .contents div ul { color: #666666; }
+#section_update .intro .element .detailArea .contents div b { color: #666666; }
+
+
+#section_update .intro .element .detailArea .contents ul li { color: #666666; }
+#section_update .intro .element .detailArea .contents ul li b { color: #666666; }
+#section_update .intro .element .detailArea .contents ul li a { color: #666666; }
+#section_update .intro .element .detailArea .contents ul li i { color: #666666; }
+#section_update .intro .element .detailArea .contents ul li div { color: #666666; }
+#section_update .intro .element .detailArea .contents ul li span { color: #666666; }
+#section_update .intro .element .detailArea .contents ul { color: #666666; }
+ 
+.mCSB_container { color: #666666; }
+#mCSB_1 { width: 90%; }
+#mCSB_1_container p { color: #666666; }
+#mCSB_1_container a { color: #666666; }
+#mCSB_1_container div { color: #666666; }
+/* #section_update .intro .element .detailArea .contents::before { content: ''; background: url(../images/gameIntro/tit_contentsTitle.jpg) no-repeat; width: 960px ; height: 110px ; position: relative; display: block; margin-top: 30px ; margin-bottom: 30px ; } */
+
+#section_update .intro .element .detailArea a.btn_list { background: url(../images/gameIntro/btn_list_off.jpg) no-repeat; width: 165px; height: 45px; display: block; cursor: pointer; margin-top: 15px; }
+#section_update .intro .element .detailArea a.btn_list:hover { background: url(../images/gameIntro/btn_list_on.jpg) no-repeat; }
+
+.nikName i.gameManager { left: auto !important; top: auto !important; transform: none !important; }
+
+:root {
+	--primary: #23adad;
+	--greyLight: #23adade1;
+	--greyLight-2: #cbe0dd;
+	--greyDark: #2d4848;
+  }
+    
+  .items-list {
+	max-width: 90vw;
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 3rem;
+	justify-content: center;
+	align-content: center;
+  }
+  @media only screen and (max-width: 600px) {
+	.items-list {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  }
+  
+  .item {
+	width: 10rem;
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--greyDark);
+	cursor: pointer;
+  }
+  .item span {
+	background: #ffffff;
+	box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05);
+	border-radius: 0.6rem;
+	padding: 2rem;
+	font-size: 3rem;
+	transition: all 0.3s ease;
+  }
+  .item:hover span {
+	transform: scale(1.2);
+	color: var(--primary);
+  }
+  .item p {
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	color: var(--greyLight);
+  }
+  
+  .page {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin: 3rem;	
+	background: #ffffff;
+	
+  }
+
+  .page a { display: flex; width: 100%; height: 100%; text-align: center; align-items: center; justify-content: center; color: #484848; transition: 0; }
+  .page__numbers, .page__btn, .page__dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	font-size: 14px;
+	cursor: pointer;
+  }
+  .page__dots {
+	width: 14px;
+	height: 14px;
+	color: var(--greyLight);
+	cursor: initial;
+  }
+  .page__numbers {
+	width: 25px;
+	height: 25px;
+	
+	color: #484848;
+	border : 1px solid #dddddd;
+  }
+  .page__numbers:hover {
+	color: #fff;
+    background: #a68c69;
+  }
+  .page__numbers.active a{ color: #fff; }
+  .page__numbers:hover a{ color: #fff; }
+  .page__numbers.active {
+	color: #fff;
+    background: #a68c69;
+  }
+  .page__btn {
+	color: var(--greyLight);
+	pointer-events: none;
+  }
+  .page__btn.active {
+	color: var(--greyDark);
+	pointer-events: initial;
+  }
+  .page__btn.active:hover {
+	color: var(--primary);
+  }
+
+  .page__moreNextBtn { margin: 0 3px; cursor: pointer; background: url(../images/gameIntro/btn_moreNext.png) no-repeat; display: inline-block; width: 16px; height: 10px; vertical-align: middle;  }
+  .page__NextBtn { margin: 0 3px; cursor: pointer; background: url(../images/gameIntro/btn_next.png) no-repeat; display: inline-block; width: 16px; height: 10px; vertical-align: middle;  }
+  .page__morePrevBtn { margin: 0 3px; cursor: pointer; background: url(../images/gameIntro/btn_morePrev.png) no-repeat; display: inline-block; width: 16px; height: 10px; vertical-align: middle;  }
+  .page__PrevBtn { margin: 0 3px; cursor: pointer; background: url(../images/gameIntro/btn_prev.png) no-repeat; display: inline-block; width: 16px; height: 10px; vertical-align: middle;  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IE*/
+/* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#section_faq .intro .element .faqArea ul {
+			margin-right: -10px;
+			padding-top: 32px;
+			margin-top: -32px;
+			margin-bottom: -32px;
+			padding-bottom: 32px;
+	
+			
+			scrollbar-base-color: #efefef;
+			scrollbar-face-color: #666666;
+			scrollbar-3dlight-color: #666666;
+			scrollbar-highlight-color: #666666;
+			scrollbar-track-color: #efefef;
+			scrollbar-arrow-color: #666666;
+			scrollbar-shadow-color: #666666;
+			scrollbar-dark-shadow-color: #666666;
+	  }
+	  
+		  #section_faq .intro .element .faqArea ul:after {
+			content: "";
+			height: 32px;
+			display: block;
+		}
+		
+	} */
+	
+	/*Edge*/
+	/* @supports (-ms-ime-align:auto)  {
+	#section_faq .intro .element .faqArea ul {
+			margin-right: -10px;
+			padding-top: 16px;
+			margin-top: -16px;
+			margin-bottom: -16px;
+			padding-bottom: 16px;
+	}
+	  
+	#section_faq .intro .element .faqArea ul:after {
+		content: "";
+		height: 16px;
+		display: block;
+	}
+	} */
+	
+	/*Firefox*/
+	/*From version 64 - https://drafts.csswg.org/css-scrollbars-1/*/
+	/* #section_faq .intro .element .faqArea ul {
+		scrollbar-width: 10px;
+		scrollbar-color: #666666 #efefef;
+	} */
+	
+	
+	/*Chrome*/
+	/* #section_faq .intro .element .faqArea ul::-webkit-scrollbar-track {
+		background-color: #efefef;
+		width: 4px;
+	}
+	
+	#section_faq .intro .element .faqArea ul::-webkit-scrollbar-thumb {
+		background-color: #666666;
+		border: 1px solid transparent;
+		background-clip: content-box;
+	}
+	
+	#section_faq .intro .element .faqArea ul::-webkit-scrollbar {
+		width: 8px;
+	} */
+
+/* .faqArea ul::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.faqArea ul::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.faqArea ul::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+} */

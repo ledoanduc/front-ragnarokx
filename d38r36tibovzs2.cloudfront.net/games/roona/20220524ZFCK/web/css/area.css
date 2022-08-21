@@ -1,0 +1,16 @@
+﻿.change_timeArea {
+    display: block !important;
+    width: 190px;
+    height: 60px;
+    position: absolute;
+    top: 80%;
+	left: 50%;
+	margin-left: -95px;
+    z-index: 9;
+    transition: 0s all;
+    transform: translateY(521px) !important;
+}
+
+.change_cityArea {
+  top : 45%;
+}

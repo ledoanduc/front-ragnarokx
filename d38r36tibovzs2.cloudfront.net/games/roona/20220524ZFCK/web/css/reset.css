@@ -1,0 +1,68 @@
+﻿
+/*==============================================
+reset css
+==============================================*/
+*{padding: 0; margin: 0;}
+html, body{
+	padding: 0; 
+	margin: 0; 
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	transition: all .8s;
+}
+ul, li{
+	list-style:none;
+	padding:0;
+}
+input{
+	padding: 0; 
+	margin: 0; 
+	text-align: center; 
+	vertical-align: middle;
+}
+input[type=radio], input[type=checkbox]{
+	display: none; 
+	width:1px; 
+	height:1px;
+}
+footer, section, aside, nav, article { 
+	display: block; 
+	padding: 0; 
+	margin: 0; 
+}
+h1, h2, h3, h4, h5, h6, div, span, p, em, strong, img, form, label, input, select, fieldset, strong, pre, ul{
+	padding: 0; 
+	margin: 0; 
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #fff; 
+	font-size:1em; 
+	-webkit-margin-before:0;  
+	-webkit-margin-after: 0;  
+	-webkit-margin-start: 0; 
+	-webkit-margin-end: 0;
+	font-weight:normal 
+} 
+a, img, fieldset{ 
+	border: 0; 
+	vertical-align: top;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+legend, caption, .txtHidden{
+	display: none; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	overflow: hidden; 
+	font-family: 'Noto Sans KR', sans-serif;
+	text-indent: -10000px; 
+	background:#fff none; 
+}

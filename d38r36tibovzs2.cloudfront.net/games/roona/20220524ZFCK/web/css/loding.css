@@ -1,0 +1,153 @@
+﻿
+#section_loding { 
+    display: block;
+    z-index: 9999;
+ }
+#section_loding .intro {
+    background: url(../images/bg_loding.jpg) no-repeat center top;  
+    height: 100%;    
+    background-size: 1920px 100%;
+    transition: 0.5s all;    
+}
+
+#section_loding .intro .element .lodingLogo_area { width: 1280px; height: 720px; position: absolute; left: 50%; top: 2%; margin-left: -693px; z-index: 1; background: url(../images/img_lodingLogo0.png) no-repeat; }
+/* #section_loding .intro .element .lodingLogo_area span.mainLogo { width: 1280px; height: 720px; position: absolute; left: 50%; top: 0%; margin-left: -635px; z-index: 1; background: url(../images/img_lodingLogo.png) no-repeat; }
+#section_loding .intro .element .lodingLogo_area span.logoPart0{ width: 206px; height: 206px; position: absolute; left: 96%; top: 256px; margin-left: -646px; z-index: 1; background: url(../images/img_lodingLogo1.png) no-repeat; transform: rotate(0deg); -webkit-animation: rotating 2s linear infinite; -moz-animation: rotating 5s linear infinite; -ms-animation: rotating 5s linear infinite; -o-animation: rotating 5s linear infinite; animation: rotating 5s linear infinite; }
+#section_loding .intro .element .lodingLogo_area span.logoPart1{ width: 206px; height: 206px; position: absolute; left: 96%; top: 256px; margin-left: -646px; z-index: 1; background: url(../images/img_lodingLogo2.png) no-repeat; transform: rotate(0deg); -webkit-animation: rotating 2s linear infinite; -moz-animation: rotating_left 5s linear infinite; -ms-animation: rotating_left 5s linear infinite; -o-animation: rotating_left 5s linear infinite; animation: rotating_left 5s linear infinite; } */
+
+#section_loding .intro .element .lodingLogo_area span.mainLogo { width: 1280px; height: 720px; position: absolute; left: 50%; top: 0%; margin-left: -635px; z-index: 1; background: url(../images/img_lodingLogo.png) no-repeat; }
+#section_loding .intro .element .lodingLogo_area span.logoPart0{ width: 206px; height: 206px; position: absolute; left: 96%; top: 256px; margin-left: -646px; z-index: 1; background: url(../images/img_lodingLogo1.png) no-repeat; transform: rotate(0deg); -webkit-animation: rotating 2s ease-in-out infinite; -moz-animation: rotating 8s ease-in-out; -ms-animation: rotating 8s ease-in-out; -o-animation: rotating 8s ease-in-out; animation: rotating 8s ease-in-out; }
+#section_loding .intro .element .lodingLogo_area span.logoPart1{ width: 206px; height: 206px; position: absolute; left: 96%; top: 256px; margin-left: -646px; z-index: 1; background: url(../images/img_lodingLogo2.png) no-repeat; transform: rotate(0deg); -webkit-animation: rotating 2s ease-in-out; -moz-animation: rotating_left 8s ease-in-out; -ms-animation: rotating_left 8s ease-in-out; -o-animation: rotating_left 8s ease-in-out; animation: rotating_left 8s ease-in-out; }
+
+#section_loding .intro .element .lodingBar_area { width: 600px; height: 75px; background: url(../images/img_lodingBar.png) no-repeat; position: absolute; left: 50%; top: 59%; margin-left: -300px; z-index: 1; }
+#section_loding .intro .element .lodingBar_area .gauge{ width: 0%; height: 75px; background: url(../images/img_lodingGauge.png) no-repeat; position: absolute; top: 0%; left: 17px; z-index: 2; }
+
+
+#section_loding .intro .element .lodingItem_area { width: 420px; height: 75px; position: absolute; left: 59%; top: 66%; margin-left: -300px; z-index: 1; }
+#section_loding .intro .element .lodingItem_area ul li { width: 57px; height: 64px; background: url(../images/img_lodingItem.png) no-repeat; display: block; float: left; -webkit-animation: pulse 1s linear infinite; 	animation: pulse 1s linear infinite; }
+#section_loding .intro .element .lodingItem_area ul li.item0{ display: none; background-position: 0 0; }
+#section_loding .intro .element .lodingItem_area ul li.item1{ display: none; background-position: -62px 0; }
+#section_loding .intro .element .lodingItem_area ul li.item2{ display: none; background-position: -120px 0; }
+#section_loding .intro .element .lodingItem_area ul li.item3{ display: none; background-position: -182px 0; width: 52px; }
+#section_loding .intro .element .lodingItem_area ul li.item4{ display: none; background-position: -237px 0; width: 52px; }
+#section_loding .intro .element .lodingItem_area ul li.item5{ display: none; background-position: -291px 0; width: 52px; }
+#section_loding .intro .element .lodingItem_area ul li.item6{ display: none; background-position: -347px 0; width: 52px; }
+
+
+/* 동영상배경 */
+
+#section_video {
+    display: none;
+    z-index: 9999;
+}
+#section_video .element {
+	
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#section_video video {
+    width: 1920px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.bgVideoContainer{
+	overflow:hidden;
+	position: absolute; 
+	width:100%; 	
+  z-index: 9999;
+  left: 50%;
+  margin-left: -50%;
+}
+
+
+
+
+@-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale(1, 1);
+   }
+    50% {
+    -webkit-transform: scale(1.1, 1.1);
+   }
+    100% {
+    -webkit-transform: scale(1, 1);
+   }
+}
+   
+   @keyframes pulse {
+    0% {
+    transform: scale(1, 1);
+   }
+    50% {
+    transform: scale(1.1, 1.1);
+   }
+    100% {
+   transform: scale(1, 1);
+   }
+}
+
+
+@-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+@-webkit-keyframes rotating_left {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+  @keyframes rotating_left {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
